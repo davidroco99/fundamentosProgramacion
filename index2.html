@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Usuarios</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <h1>Gestión de Usuarios</h1>
+    <div id="user-list"></div>
+
+    <h2>Insertar/Actualizar Usuario</h2>
+    <form id="userForm">
+        <input type="hidden" id="userId">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellido" placeholder="Apellido" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Guardar</button>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
